@@ -1,0 +1,148 @@
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #C93;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  color: #FFF;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}/* CSS Document */
+
+.nav
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	}
+
+ footer {
+      background-color: #C93;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+	
+	    
+  </style>
+  
+  <header>
+  <title>Jersey Order</title>
+  <link rel="stylesheet" type="text/css" href="style2.css">
+  <form action="order.php" method="POST">
+</head>
+<body>
+<header>
+    
+    <h1>Welcome to SCBAMY</h1>
+    <p>SCBA item is a leading provider of high-quality sports jerseys for SCBA teams.</p>
+  </header>
+  
+
+    <header>
+    <div class="nav">
+      <ul>
+        <a href="home.html">Home</a> |
+        <a href="about.html">About Us</a> |
+       <a href="contact.html">Contact</a> |
+        <a href="scbaxaul.html">Scbaxaul</a> |
+        <a href="help.html">Help</a> |
+        <a href="gallery.html">Gallery</a> |
+        <a href="scba.html">Scba</a> |
+        <a href="event.html">Event</a> |
+        <a href="membership.html">Membership</a> |
+        <a href="testimonial.html">Testimonial</a> |
+        <a href="social.html">Social</a> |
+        <a href="sizeguide.html">Size Guide</a> |
+        <span class="here">Order</span> | 
+        <a href="privacypolicy.html">Policy</a> | 
+        <a href="management.html">Management</a>     
+      </ul>
+    </div>
+  </header>
+  
+  <main>
+    <h1>Order Form</h1>
+
+    <form action="confirmation.php" method="POST">
+      <label for="jersey">Jersey:</label>
+      <input type="text" id="jersey" name="jersey" placeholder="Enter jersey details" required>
+
+      <label for="other_item">Other Item:</label>
+      <input type="text" id="other_item" name="other_item" placeholder="Enter other item details" required>
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" placeholder="Enter your address" required></textarea>
+      <br>
+      <input type="submit" value="Place Order">
+    </form>
+  </main>
+
+   <footer>
+    <p>@copyright by scbamy</p>
+  </footer>
+</body>
+</html>
